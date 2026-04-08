@@ -14,10 +14,9 @@ That's it — one command, no install. It pulls down the latest beta and starts 
 
 ### What's coming next for the TUI
 
-- Extension management (add / remove / configure)
+- Provider and model management
 - Session list, resume, and export
-- `-t` and `-i` modes for non-interactive / zero-shot use
-- MCP features like sampling and elicitation
+- UI for MCP features and skills management
 
 We'd love your feedback — try it out and let us know what works and what doesn't.
 
@@ -42,5 +41,5 @@ This is all happening in the open. Follow along or jump in:
 
 - **Tracking issue:** [#6642](https://github.com/aaif-goose/goose/issues/6642)
 - **Try the TUI:** `npx @aaif/goose`
-- **Discord:** Join the conversation in [#acp-tui-beta](https://discord.com/channels/0056)
+- **Discord:** Follow along and give feedback in [#goose-2-dev](https://discord.com/channels/0056)
 - **Feedback?** Open an issue or drop a comment on #6642 — we'd love to hear from you.
