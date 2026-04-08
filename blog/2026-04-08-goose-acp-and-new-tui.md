@@ -42,4 +42,5 @@ This is all happening in the open. Follow along or jump in:
 
 - **Tracking issue:** [#6642](https://github.com/aaif-goose/goose/issues/6642)
 - **Try the TUI:** `npx @aaif/goose`
+- **Discord:** Join the conversation in [#acp-tui-beta](https://discord.com/channels/0056)
 - **Feedback?** Open an issue or drop a comment on #6642 — we'd love to hear from you.
