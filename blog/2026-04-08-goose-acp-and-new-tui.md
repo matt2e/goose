@@ -23,7 +23,7 @@ We'd love your feedback — try it out and let us know what works and what doesn
 
 ## Under the hood: ACP
 
-Behind the scenes we're unifying how every client connects to goose through **ACP (Agent Communication Protocol)**. Today the Rust CLI talks to the agent in-process while the Electron desktop app goes through `goosed`, a custom REST + SSE server. That split means every feature gets wired up twice, and third-party clients have no standard way to connect.
+Behind the scenes we're unifying how every client connects to goose through **ACP (Agent Client Protocol)**. Today the Rust CLI talks to the agent in-process while the Electron desktop app goes through `goosed`, a custom REST + SSE server. That split means every feature gets wired up twice, and third-party clients have no standard way to connect.
 
 ACP gives us one protocol and one server for every client — terminal, desktop, IDE plugins, whatever you want to build. We're currently drafting the RFD for the new transport layer and would welcome early feedback on the design. The work is tracked in [#6642](https://github.com/aaif-goose/goose/issues/6642).
 
